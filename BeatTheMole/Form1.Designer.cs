@@ -37,6 +37,7 @@
             this.PlayButton = new System.Windows.Forms.Button();
             this.SettingsButton = new System.Windows.Forms.Button();
             this.ExitButton = new System.Windows.Forms.Button();
+            this.DifLevelLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.SkyPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -109,6 +110,7 @@
             this.PlayButton.TabIndex = 5;
             this.PlayButton.Text = "Играть";
             this.PlayButton.UseVisualStyleBackColor = false;
+            this.PlayButton.Click += new System.EventHandler(this.PlayButton_Click);
             // 
             // SettingsButton
             // 
@@ -122,6 +124,7 @@
             this.SettingsButton.TabIndex = 6;
             this.SettingsButton.Text = "Настройки";
             this.SettingsButton.UseVisualStyleBackColor = false;
+            this.SettingsButton.Click += new System.EventHandler(this.SettingsButton_Click);
             // 
             // ExitButton
             // 
@@ -137,12 +140,23 @@
             this.ExitButton.UseVisualStyleBackColor = false;
             this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
             // 
+            // DifLevelLabel
+            // 
+            this.DifLevelLabel.AutoSize = true;
+            this.DifLevelLabel.Location = new System.Drawing.Point(89, 283);
+            this.DifLevelLabel.Name = "DifLevelLabel";
+            this.DifLevelLabel.Size = new System.Drawing.Size(44, 13);
+            this.DifLevelLabel.TabIndex = 8;
+            this.DifLevelLabel.Text = "Лёгкий";
+            this.DifLevelLabel.Visible = false;
+            // 
             // MainMenuForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(214)))), ((int)(((byte)(111)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.DifLevelLabel);
             this.Controls.Add(this.ExitButton);
             this.Controls.Add(this.SettingsButton);
             this.Controls.Add(this.PlayButton);
@@ -176,6 +190,7 @@
         private System.Windows.Forms.Button PlayButton;
         private System.Windows.Forms.Button SettingsButton;
         private System.Windows.Forms.Button ExitButton;
+        private System.Windows.Forms.Label DifLevelLabel;
     }
 }
 
