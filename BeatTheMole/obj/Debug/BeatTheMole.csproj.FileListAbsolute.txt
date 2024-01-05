@@ -1,0 +1,12 @@
+D:\Универ\Программирование\2.1\Kursovaya_winforms\BeatTheMole\bin\Debug\BeatTheMole.exe.config
+D:\Универ\Программирование\2.1\Kursovaya_winforms\BeatTheMole\bin\Debug\BeatTheMole.exe
+D:\Универ\Программирование\2.1\Kursovaya_winforms\BeatTheMole\bin\Debug\BeatTheMole.pdb
+D:\Универ\Программирование\2.1\Kursovaya_winforms\BeatTheMole\obj\Debug\BeatTheMole.csproj.AssemblyReference.cache
+D:\Универ\Программирование\2.1\Kursovaya_winforms\BeatTheMole\obj\Debug\BeatTheMole.MainMenuForm.resources
+D:\Универ\Программирование\2.1\Kursovaya_winforms\BeatTheMole\obj\Debug\BeatTheMole.GameForm.resources
+D:\Универ\Программирование\2.1\Kursovaya_winforms\BeatTheMole\obj\Debug\BeatTheMole.SettingsForm.resources
+D:\Универ\Программирование\2.1\Kursovaya_winforms\BeatTheMole\obj\Debug\BeatTheMole.Properties.Resources.resources
+D:\Универ\Программирование\2.1\Kursovaya_winforms\BeatTheMole\obj\Debug\BeatTheMole.csproj.GenerateResource.cache
+D:\Универ\Программирование\2.1\Kursovaya_winforms\BeatTheMole\obj\Debug\BeatTheMole.csproj.CoreCompileInputs.cache
+D:\Универ\Программирование\2.1\Kursovaya_winforms\BeatTheMole\obj\Debug\BeatTheMole.exe
+D:\Универ\Программирование\2.1\Kursovaya_winforms\BeatTheMole\obj\Debug\BeatTheMole.pdb
