@@ -15,9 +15,16 @@ namespace BeatTheMole
         private Random random = new Random();
         private PictureBox[][] moles_sprites;
         private Mole[] moles = new Mole[9];
+        private PictureBox[] clickable_moles_sprites;
+        private PictureBox[][] dead_moles_sprites;
+        private Mole[] dead_moles = new Mole[9];
         private PictureBox[][] bombs_sprites;
         private Bomb[] bombs = new Bomb[9];
+        private PictureBox[] clickable_bombs_sprites;
         private Cursor hammer_cursor = new Cursor(Properties.Resources.Hummer.GetHicon());
+        private bool[] mole_clicked_array = new bool[9];
+        private bool mole_allow_clicks = false;
+        private bool bomb_allow_clicks = false;
         private int delay_time;
         private int game_interval;
 
@@ -56,6 +63,22 @@ namespace BeatTheMole
             {
                 moles[i] = new Mole(moles_sprites[i]);
             }
+            clickable_moles_sprites = new PictureBox[] { pictureBox31, pictureBox32, pictureBox33, pictureBox34, pictureBox35, pictureBox36, pictureBox37, pictureBox38, pictureBox39 };
+            dead_moles_sprites = new PictureBox[][] {
+                new PictureBox[] { pictureBox4, pictureBox13, pictureBox49, pictureBox58 },
+                new PictureBox[] { pictureBox5, pictureBox14, pictureBox50, pictureBox59 },
+                new PictureBox[] { pictureBox6, pictureBox15, pictureBox51, pictureBox60 },
+                new PictureBox[] { pictureBox9, pictureBox16, pictureBox52, pictureBox61 },
+                new PictureBox[] { pictureBox8, pictureBox17, pictureBox53, pictureBox62 },
+                new PictureBox[] { pictureBox7, pictureBox18, pictureBox54, pictureBox63 },
+                new PictureBox[] { pictureBox12, pictureBox19, pictureBox55, pictureBox64 },
+                new PictureBox[] { pictureBox11, pictureBox20, pictureBox56, pictureBox65 },
+                new PictureBox[] { pictureBox10, pictureBox21, pictureBox57, pictureBox66 }
+            };
+            for (int i = 0; i < 9; i++)
+            {
+                dead_moles[i] = new Mole(dead_moles_sprites[i]);
+            }
             bombs_sprites = new PictureBox[][] {
                     new PictureBox[] { pictureBox4, pictureBox40 },
                     new PictureBox[] { pictureBox5, pictureBox41 },
@@ -71,7 +94,41 @@ namespace BeatTheMole
             {
                 bombs[i] = new Bomb(bombs_sprites[i]);
             }
+            clickable_bombs_sprites = new PictureBox[] { pictureBox40, pictureBox41, pictureBox42, pictureBox43, pictureBox44, pictureBox45, pictureBox46, pictureBox47, pictureBox48 };
+            for (int i = 0; i < 9; i++)
+            {
+                clickable_moles_sprites[i].Click += Mole_Click;
+                clickable_moles_sprites[i].Tag = i;
+                clickable_bombs_sprites[i].Click += Bomb_Click;
+            }
             Cursor = hammer_cursor;
+        }
+
+        private async void Mole_Click(object sender, EventArgs e)
+        {
+            if (!mole_allow_clicks)
+            {
+                return;
+            }
+            PictureBox clickedMole = sender as PictureBox;
+            int moleIndex = int.Parse(clickedMole.Tag.ToString());
+            if (!mole_clicked_array[moleIndex])
+            {
+                clickedMole.Visible = false;
+                dead_moles[moleIndex].StartMoleAnimation(250, "reversed");
+                await Task.Delay(250);
+                mole_clicked_array[moleIndex] = true;
+            }
+        }
+        private void Bomb_Click(object sender, EventArgs e)
+        {
+            if (!bomb_allow_clicks)
+            {
+                return;
+            }
+            GameTimer.Stop();
+            MessageBox.Show(("Ваш счёт: "), "Конец игры", MessageBoxButtons.OK);
+            Close();
         }
 
         private async void GameTimer_Tick(object sender, EventArgs e)
@@ -99,6 +156,10 @@ namespace BeatTheMole
                 int enemy_type;
                 int holes_count = random.Next(1, 5);
                 int[] holes = new int[holes_count];
+                for (int i = 0; i < 9; i++)
+                {
+                    mole_clicked_array[i] = false;
+                }
                 for (int i = 0; i < holes_count; i++)
                 {
                     if (i == 0)
@@ -120,15 +181,22 @@ namespace BeatTheMole
                     {
                         moles[holes[i]].StartMoleAnimation(250);
                         await Task.Delay(250);
+                        mole_allow_clicks = true;
                         await Task.Delay(delay_time);
-                        moles[holes[i]].StartMoleAnimation(250, "reversed");
-                        await Task.Delay(250);
+                        mole_allow_clicks = false;
+                        if (!mole_clicked_array[holes[i]])
+                        {
+                            moles[holes[i]].StartMoleAnimation(250, "reversed");
+                            await Task.Delay(250);
+                        }
                     }
                     else
                     {
                         bombs[holes[i]].StartBombAnimation(250);
                         await Task.Delay(250);
+                        bomb_allow_clicks = true;
                         await Task.Delay(delay_time);
+                        bomb_allow_clicks = false;
                         bombs[holes[i]].StartBombAnimation(250, "reversed");
                         await Task.Delay(250);
                     }

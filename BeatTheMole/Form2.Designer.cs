@@ -82,6 +82,24 @@
             this.pictureBox46 = new System.Windows.Forms.PictureBox();
             this.pictureBox47 = new System.Windows.Forms.PictureBox();
             this.pictureBox48 = new System.Windows.Forms.PictureBox();
+            this.pictureBox49 = new System.Windows.Forms.PictureBox();
+            this.pictureBox50 = new System.Windows.Forms.PictureBox();
+            this.pictureBox51 = new System.Windows.Forms.PictureBox();
+            this.pictureBox52 = new System.Windows.Forms.PictureBox();
+            this.pictureBox53 = new System.Windows.Forms.PictureBox();
+            this.pictureBox54 = new System.Windows.Forms.PictureBox();
+            this.pictureBox55 = new System.Windows.Forms.PictureBox();
+            this.pictureBox56 = new System.Windows.Forms.PictureBox();
+            this.pictureBox57 = new System.Windows.Forms.PictureBox();
+            this.pictureBox58 = new System.Windows.Forms.PictureBox();
+            this.pictureBox59 = new System.Windows.Forms.PictureBox();
+            this.pictureBox60 = new System.Windows.Forms.PictureBox();
+            this.pictureBox61 = new System.Windows.Forms.PictureBox();
+            this.pictureBox62 = new System.Windows.Forms.PictureBox();
+            this.pictureBox63 = new System.Windows.Forms.PictureBox();
+            this.pictureBox64 = new System.Windows.Forms.PictureBox();
+            this.pictureBox65 = new System.Windows.Forms.PictureBox();
+            this.pictureBox66 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.SkyPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -131,6 +149,24 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox46)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox47)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox48)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox49)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox50)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox51)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox52)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox53)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox54)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox55)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox56)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox57)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox58)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox59)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox60)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox61)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox62)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox63)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox64)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox65)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox66)).BeginInit();
             this.SuspendLayout();
             // 
             // SkyPictureBox
@@ -692,6 +728,204 @@
             this.pictureBox48.TabStop = false;
             this.pictureBox48.Visible = false;
             // 
+            // pictureBox49
+            // 
+            this.pictureBox49.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox49.BackgroundImage")));
+            this.pictureBox49.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox49.Location = new System.Drawing.Point(155, 184);
+            this.pictureBox49.Name = "pictureBox49";
+            this.pictureBox49.Size = new System.Drawing.Size(140, 65);
+            this.pictureBox49.TabIndex = 57;
+            this.pictureBox49.TabStop = false;
+            this.pictureBox49.Visible = false;
+            // 
+            // pictureBox50
+            // 
+            this.pictureBox50.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox50.BackgroundImage")));
+            this.pictureBox50.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox50.Location = new System.Drawing.Point(329, 184);
+            this.pictureBox50.Name = "pictureBox50";
+            this.pictureBox50.Size = new System.Drawing.Size(140, 65);
+            this.pictureBox50.TabIndex = 58;
+            this.pictureBox50.TabStop = false;
+            this.pictureBox50.Visible = false;
+            // 
+            // pictureBox51
+            // 
+            this.pictureBox51.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox51.BackgroundImage")));
+            this.pictureBox51.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox51.Location = new System.Drawing.Point(502, 184);
+            this.pictureBox51.Name = "pictureBox51";
+            this.pictureBox51.Size = new System.Drawing.Size(140, 65);
+            this.pictureBox51.TabIndex = 59;
+            this.pictureBox51.TabStop = false;
+            this.pictureBox51.Visible = false;
+            // 
+            // pictureBox52
+            // 
+            this.pictureBox52.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox52.BackgroundImage")));
+            this.pictureBox52.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox52.Location = new System.Drawing.Point(155, 273);
+            this.pictureBox52.Name = "pictureBox52";
+            this.pictureBox52.Size = new System.Drawing.Size(140, 65);
+            this.pictureBox52.TabIndex = 60;
+            this.pictureBox52.TabStop = false;
+            this.pictureBox52.Visible = false;
+            // 
+            // pictureBox53
+            // 
+            this.pictureBox53.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox53.BackgroundImage")));
+            this.pictureBox53.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox53.Location = new System.Drawing.Point(329, 273);
+            this.pictureBox53.Name = "pictureBox53";
+            this.pictureBox53.Size = new System.Drawing.Size(140, 65);
+            this.pictureBox53.TabIndex = 61;
+            this.pictureBox53.TabStop = false;
+            this.pictureBox53.Visible = false;
+            // 
+            // pictureBox54
+            // 
+            this.pictureBox54.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox54.BackgroundImage")));
+            this.pictureBox54.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox54.Location = new System.Drawing.Point(502, 273);
+            this.pictureBox54.Name = "pictureBox54";
+            this.pictureBox54.Size = new System.Drawing.Size(140, 65);
+            this.pictureBox54.TabIndex = 62;
+            this.pictureBox54.TabStop = false;
+            this.pictureBox54.Visible = false;
+            // 
+            // pictureBox55
+            // 
+            this.pictureBox55.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox55.BackgroundImage")));
+            this.pictureBox55.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox55.Location = new System.Drawing.Point(155, 363);
+            this.pictureBox55.Name = "pictureBox55";
+            this.pictureBox55.Size = new System.Drawing.Size(140, 65);
+            this.pictureBox55.TabIndex = 63;
+            this.pictureBox55.TabStop = false;
+            this.pictureBox55.Visible = false;
+            // 
+            // pictureBox56
+            // 
+            this.pictureBox56.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox56.BackgroundImage")));
+            this.pictureBox56.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox56.Location = new System.Drawing.Point(329, 363);
+            this.pictureBox56.Name = "pictureBox56";
+            this.pictureBox56.Size = new System.Drawing.Size(140, 65);
+            this.pictureBox56.TabIndex = 64;
+            this.pictureBox56.TabStop = false;
+            this.pictureBox56.Visible = false;
+            // 
+            // pictureBox57
+            // 
+            this.pictureBox57.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox57.BackgroundImage")));
+            this.pictureBox57.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox57.Location = new System.Drawing.Point(502, 363);
+            this.pictureBox57.Name = "pictureBox57";
+            this.pictureBox57.Size = new System.Drawing.Size(140, 65);
+            this.pictureBox57.TabIndex = 65;
+            this.pictureBox57.TabStop = false;
+            this.pictureBox57.Visible = false;
+            // 
+            // pictureBox58
+            // 
+            this.pictureBox58.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox58.BackgroundImage")));
+            this.pictureBox58.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox58.Location = new System.Drawing.Point(155, 167);
+            this.pictureBox58.Name = "pictureBox58";
+            this.pictureBox58.Size = new System.Drawing.Size(140, 82);
+            this.pictureBox58.TabIndex = 66;
+            this.pictureBox58.TabStop = false;
+            this.pictureBox58.Visible = false;
+            // 
+            // pictureBox59
+            // 
+            this.pictureBox59.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox59.BackgroundImage")));
+            this.pictureBox59.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox59.Location = new System.Drawing.Point(329, 167);
+            this.pictureBox59.Name = "pictureBox59";
+            this.pictureBox59.Size = new System.Drawing.Size(140, 82);
+            this.pictureBox59.TabIndex = 67;
+            this.pictureBox59.TabStop = false;
+            this.pictureBox59.Visible = false;
+            // 
+            // pictureBox60
+            // 
+            this.pictureBox60.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox60.BackgroundImage")));
+            this.pictureBox60.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox60.Location = new System.Drawing.Point(502, 167);
+            this.pictureBox60.Name = "pictureBox60";
+            this.pictureBox60.Size = new System.Drawing.Size(140, 82);
+            this.pictureBox60.TabIndex = 68;
+            this.pictureBox60.TabStop = false;
+            this.pictureBox60.Visible = false;
+            // 
+            // pictureBox61
+            // 
+            this.pictureBox61.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox61.BackgroundImage")));
+            this.pictureBox61.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox61.Location = new System.Drawing.Point(155, 256);
+            this.pictureBox61.Name = "pictureBox61";
+            this.pictureBox61.Size = new System.Drawing.Size(140, 82);
+            this.pictureBox61.TabIndex = 69;
+            this.pictureBox61.TabStop = false;
+            this.pictureBox61.Visible = false;
+            // 
+            // pictureBox62
+            // 
+            this.pictureBox62.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox62.BackgroundImage")));
+            this.pictureBox62.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox62.Location = new System.Drawing.Point(329, 256);
+            this.pictureBox62.Name = "pictureBox62";
+            this.pictureBox62.Size = new System.Drawing.Size(140, 82);
+            this.pictureBox62.TabIndex = 70;
+            this.pictureBox62.TabStop = false;
+            this.pictureBox62.Visible = false;
+            // 
+            // pictureBox63
+            // 
+            this.pictureBox63.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox63.BackgroundImage")));
+            this.pictureBox63.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox63.Location = new System.Drawing.Point(502, 256);
+            this.pictureBox63.Name = "pictureBox63";
+            this.pictureBox63.Size = new System.Drawing.Size(140, 82);
+            this.pictureBox63.TabIndex = 71;
+            this.pictureBox63.TabStop = false;
+            this.pictureBox63.Visible = false;
+            // 
+            // pictureBox64
+            // 
+            this.pictureBox64.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox64.BackgroundImage")));
+            this.pictureBox64.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox64.Location = new System.Drawing.Point(155, 346);
+            this.pictureBox64.Name = "pictureBox64";
+            this.pictureBox64.Size = new System.Drawing.Size(140, 82);
+            this.pictureBox64.TabIndex = 72;
+            this.pictureBox64.TabStop = false;
+            this.pictureBox64.Visible = false;
+            // 
+            // pictureBox65
+            // 
+            this.pictureBox65.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox65.BackgroundImage")));
+            this.pictureBox65.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox65.Location = new System.Drawing.Point(329, 346);
+            this.pictureBox65.Name = "pictureBox65";
+            this.pictureBox65.Size = new System.Drawing.Size(140, 82);
+            this.pictureBox65.TabIndex = 73;
+            this.pictureBox65.TabStop = false;
+            this.pictureBox65.Visible = false;
+            // 
+            // pictureBox66
+            // 
+            this.pictureBox66.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox66.BackgroundImage")));
+            this.pictureBox66.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox66.Location = new System.Drawing.Point(502, 346);
+            this.pictureBox66.Name = "pictureBox66";
+            this.pictureBox66.Size = new System.Drawing.Size(140, 82);
+            this.pictureBox66.TabIndex = 74;
+            this.pictureBox66.TabStop = false;
+            this.pictureBox66.Visible = false;
+            // 
             // GameForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -699,6 +933,24 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(214)))), ((int)(((byte)(111)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.pictureBox66);
+            this.Controls.Add(this.pictureBox65);
+            this.Controls.Add(this.pictureBox64);
+            this.Controls.Add(this.pictureBox63);
+            this.Controls.Add(this.pictureBox62);
+            this.Controls.Add(this.pictureBox61);
+            this.Controls.Add(this.pictureBox60);
+            this.Controls.Add(this.pictureBox59);
+            this.Controls.Add(this.pictureBox58);
+            this.Controls.Add(this.pictureBox57);
+            this.Controls.Add(this.pictureBox56);
+            this.Controls.Add(this.pictureBox55);
+            this.Controls.Add(this.pictureBox54);
+            this.Controls.Add(this.pictureBox53);
+            this.Controls.Add(this.pictureBox52);
+            this.Controls.Add(this.pictureBox51);
+            this.Controls.Add(this.pictureBox50);
+            this.Controls.Add(this.pictureBox49);
             this.Controls.Add(this.pictureBox48);
             this.Controls.Add(this.pictureBox47);
             this.Controls.Add(this.pictureBox46);
@@ -806,6 +1058,24 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox46)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox47)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox48)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox49)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox50)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox51)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox52)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox53)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox54)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox55)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox56)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox57)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox58)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox59)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox60)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox61)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox62)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox63)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox64)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox65)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox66)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -865,5 +1135,23 @@
         private System.Windows.Forms.PictureBox pictureBox46;
         private System.Windows.Forms.PictureBox pictureBox47;
         private System.Windows.Forms.PictureBox pictureBox48;
+        private System.Windows.Forms.PictureBox pictureBox49;
+        private System.Windows.Forms.PictureBox pictureBox50;
+        private System.Windows.Forms.PictureBox pictureBox51;
+        private System.Windows.Forms.PictureBox pictureBox52;
+        private System.Windows.Forms.PictureBox pictureBox53;
+        private System.Windows.Forms.PictureBox pictureBox54;
+        private System.Windows.Forms.PictureBox pictureBox55;
+        private System.Windows.Forms.PictureBox pictureBox56;
+        private System.Windows.Forms.PictureBox pictureBox57;
+        private System.Windows.Forms.PictureBox pictureBox58;
+        private System.Windows.Forms.PictureBox pictureBox59;
+        private System.Windows.Forms.PictureBox pictureBox60;
+        private System.Windows.Forms.PictureBox pictureBox61;
+        private System.Windows.Forms.PictureBox pictureBox62;
+        private System.Windows.Forms.PictureBox pictureBox63;
+        private System.Windows.Forms.PictureBox pictureBox64;
+        private System.Windows.Forms.PictureBox pictureBox65;
+        private System.Windows.Forms.PictureBox pictureBox66;
     }
 }
