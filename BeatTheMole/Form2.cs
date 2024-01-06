@@ -17,6 +17,7 @@ namespace BeatTheMole
         private Mole[] moles = new Mole[9];
         private PictureBox[][] bombs_sprites;
         private Bomb[] bombs = new Bomb[9];
+        private Cursor hammer_cursor = new Cursor(Properties.Resources.Hummer.GetHicon());
         private int delay_time;
         private int game_interval;
 
@@ -70,6 +71,7 @@ namespace BeatTheMole
             {
                 bombs[i] = new Bomb(bombs_sprites[i]);
             }
+            Cursor = hammer_cursor;
         }
 
         private async void GameTimer_Tick(object sender, EventArgs e)
