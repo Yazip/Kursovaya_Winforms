@@ -114,6 +114,7 @@ namespace BeatTheMole
             int moleIndex = int.Parse(clickedMole.Tag.ToString());
             if (!mole_clicked_array[moleIndex])
             {
+                ScoreLabel.Text = (int.Parse(ScoreLabel.Text) + 1).ToString();
                 clickedMole.Visible = false;
                 dead_moles[moleIndex].StartMoleAnimation(250, "reversed");
                 await Task.Delay(250);
@@ -127,7 +128,7 @@ namespace BeatTheMole
                 return;
             }
             GameTimer.Stop();
-            MessageBox.Show(("Ваш счёт: "), "Конец игры", MessageBoxButtons.OK);
+            MessageBox.Show(("Ваш счёт: " + ScoreLabel.Text), "Конец игры", MessageBoxButtons.OK);
             Close();
         }
 
